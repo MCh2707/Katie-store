@@ -1,0 +1,291 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Montserrat", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+.home-h1{
+    font-weight: 500;
+}
+
+  header {
+    background-color: #333333;
+    width: 100%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header-text {
+    color: #a9a9a9;
+}
+
+/* Home */
+
+.home {
+    flex-direction: column;
+    align-items: center;
+}
+
+.home-img {
+    width: 100%;
+}
+
+.home-border {
+    margin-top: -0.24rem;
+    background-color: #DDC6B5;
+    width: 100%;
+    height: 17rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; /* This will center the text within its container */
+}
+
+.home-text {
+    color: #333; /* Or any other color you prefer */
+}
+
+.home-p{
+    margin-top: 1rem;
+}
+
+.home-button{
+    margin-top: 2rem;
+    font-weight: 600;
+    background: none;
+    border: 2px solid #000000; 
+    padding: 15px 25px; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+.home-button:hover {
+    background-color: #000000;
+    color: #F5F7F8;
+}
+
+/* About */
+
+.about-us {
+    display: flex;
+    align-items: center; /* Vertically center items */
+    gap: 20px; /* Optional: add space between image and text */
+    text-align: center;
+    margin-left: 5rem;
+}
+
+
+
+.aboutMainP, .aboutP {
+    margin: 2rem; /* Reset margins for better control */
+}
+
+.about-h3 {
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    letter-spacing: 5px; 
+    font-weight: 300;
+    text-align: center;
+}
+
+.aboutMainP {
+    font-weight: 600;
+}
+
+/* Slider */
+
+.slider-h2{
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    letter-spacing: 5px; 
+    font-weight: 300;
+    text-align: center;
+}
+
+/* styles.css */
+body {
+    font-family: Arial, sans-serif;
+}
+
+.slider {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 100%;
+    max-width: 595px;
+    height: auto;
+}
+
+.prev, .next {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+.slide-indicator {
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+.slide img {
+    width: 595px;
+    height: 334px;
+    object-fit: cover;
+
+}
+
+/* Contact */
+
+
+.contact1-banner {
+        margin-top: 3rem;
+        width: 100%;
+        height: 29rem;
+        object-fit: cover; /* Optional, to ensure the image maintains its aspect ratio */
+        background-image: url('images/banner2.png');
+        background-size: cover; /* or 'contain' depending on how you want to scale the image */
+        background-position: center; /* to center the image */
+        background-repeat: no-repeat; /* prevents the image from repeating */
+        
+
+}
+
+.contact1-h1 {
+    text-align: center;
+    margin-top: -25rem;
+    color: #FFFFFF;
+    font-size: 900;
+
+}
+
+.contact1-h4 {
+    margin-top: 1rem;
+    text-align: center;
+    color: #FFFFFF;
+    font-size: 400;
+}
+
+.contact1-all {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Horizontally centers items */
+    justify-content: center; /* Vertically centers items */
+    text-align: center; /* Centers text content */
+
+}
+
+.contact1-fb{
+    margin-top: 3rem;
+}
+
+
+.contact1-btn{
+    margin-top: 3rem;
+    background: none;
+    border: none; 
+    padding: 14px 24px; 
+    background-color: #00A4A6;
+    cursor: pointer;
+    color: #FFFFFF;
+    font-weight: 500;
+
+}
+
+.contact1-btn:hover {
+    background-color: #00797b;
+    transition: 0.2s;
+}
+
+/*Email */
+
+
+#userInput {
+    
+    padding: 15px ;
+    font-size: 16px;
+    width: 700px;
+    margin-bottom: 10px;
+}
+
+#printButton {
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background: none;
+    border: 1px solid #333;
+    padding: 15px 25px; 
+    cursor: pointer;
+    transition: background-color 0.3s; 
+}
+
+#printButton:hover {
+    background-color: black;
+    color: white;
+}
+
+#outputText {
+    font-size: 24px;
+    color: #333;
+    margin-top: 20px;
+}
+
+
+.text-entry-container {
+    text-align: center;
+    margin-top: 50px;
+    position: relative; /* Allows for absolute positioning of child elements */
+}
+
+.left-aligned {
+    position: relative; /* Relative positioning allows adjustment without affecting other elements */
+    left: 6rem; /* Ensures it's aligned to the left */
+    top: 3.8rem; /* Adjusts the top position of the heading without affecting other elements */
+    text-align: left;
+    margin-left: 3rem; /* Aligns the heading to the left */
+    margin-bottom: 20px; /* Adds some space below the heading */
+    font-size: 24px; /* Adjust font size as needed */
+    color: #333;
+}
+

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katie Shop</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="header-text"><h2 class="header-h2">Katie shop</h2></div>
+    </header>
+
+    <div class="home">
+        <div>
+            <img src="images/banner1.png" alt="image banner1" class="home-img">
+        </div>
+        <div class="home-border">
+            <div class="home-text">
+                <h1 class="home-h1">Nature's Beauty in Every Arrangement</h1>
+                <p class="home-p">We carefully select each bloom to create unique and natural arrangements for any occasion.</p>
+
+                <button class="home-button">SHOP NOW</button>
+            </div>
+
+
+        </div>
+    </div>
+
+    <div class="about">
+        <h3 class="about-h3">KATIE SHOP</h3>
+    
+        <div class="about-us">
+            <img src="images/flower1.png" alt="flower1">
+            <div>
+                <p class="aboutMainP">Welcome to Katie Shop</p>
+                <p class="aboutP">At Katie Shop, we offer a wide variety of fresh, beautiful flowers for all your floral needs. Whether you're looking for classic roses, vibrant lilies, or unique seasonal blooms, we have something to suit every occasion. Our expert florists carefully select and arrange each bouquet with the utmost care, ensuring you receive the highest quality products. Visit us today and let us help you find the perfect flowers to brighten your day or celebrate a special moment.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="slider">
+        <div><h3 class="slider-h2">BLOSSOM HAVEN COLLECTION</h3></div>
+
+        <div class="slider">
+            <div class="slides">
+                <div class="slide"><img src="images/slider1.png" alt="Image 1"></div>
+                <div class="slide"><img src="images/slider2.png" alt="Image 2"></div>
+                <div class="slide"><img src="images/slider3.png" alt="Image 3"></div>
+                <div class="slide"><img src="images/slider4.png" alt="Image 4"></div>
+                <div class="slide"><img src="images/slider5.png" alt="Image 5"></div>
+            </div>
+            <div class="slide-indicator">
+                <span id="current-slide">1</span> / <span id="total-slides">5</span>
+            </div>
+            <button class="prev" onclick="prevSlide()">&#10094;</button>
+            <button class="next" onclick="nextSlide()">&#10095;</button>
+        </div>
+    
+    </div>
+
+    <div class="contact1">
+        <div><img src="images/banner2.png" alt="banner2" class="contact1-banner"></div>
+
+        <div class="contact1-all">
+            <div class="contact1-h1">
+                <h1>Bloom's Buzz: What Our Customers Say</h1>
+            </div>
+    
+            
+            <div class="contact1-fb">
+                <img src="images/facebook icon.webp" alt="facebook icon" width="90px" class="contact1-fbicon">
+                <h4 class="contact1-h4">To show reviews on your site, connect your account to Facebook</h4>
+            </div>
+    
+            <button class="contact1-btn">Connect to Facebook</button>
+        </div>
+
+    </div>
+
+    <div class="email">
+
+
+
+        <div class="text-entry-container">
+            <h1 class="left-aligned ">Subscribe</h1>
+            <input type="text" id="userInput" placeholder="Email">
+            <button id="printButton">Sign up</button>
+            <div id="outputText"></div>
+        </div>
+        
+    </div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
